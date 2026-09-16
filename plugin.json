@@ -1,0 +1,19 @@
+{
+  "name": "Screen Colors",
+  "author": "PacificSilent",
+  "flags": [
+    "root"
+  ],
+  "api_version": 1,
+  "publish": {
+    "tags": [
+      "color",
+      "saturation",
+      "oled",
+      "display",
+      "gamescope"
+    ],
+    "description": "Screen color adjustment (saturation, vibrance, temperature, OLED look) via a gamescope 3D LUT. Works on modern SteamOS.",
+    "image": "https://raw.githubusercontent.com/PacificSilent/decky-screen-colors/main/assets/screenshot.png"
+  }
+}

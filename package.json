@@ -1,0 +1,36 @@
+{
+  "name": "decky-screen-colors",
+  "version": "1.0.0",
+  "description": "Screen color adjustment and OLED look for handhelds running gamescope (Steam Deck).",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "PacificSilent",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PacificSilent/decky-screen-colors.git"
+  },
+  "devDependencies": {
+    "@decky/rollup": "^1.0.2",
+    "@decky/ui": "^4.12.0",
+    "@types/react": "18.3.3",
+    "react": "18.3.1",
+    "rollup": "^4.62.5",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@decky/api": "^1.1.3",
+    "react-icons": "^5.7.0",
+    "tslib": "^2.7.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "react",
+        "react-dom"
+      ]
+    }
+  }
+}
